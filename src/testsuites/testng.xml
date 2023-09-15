@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="1">
+    <test name="Internal Testing">
+        <classes>
+            <class name="tests.Android.Login"/>
+            <class name="tests.Android.Home"/>
+            <class name="tests.Android.Benefit"/>
+            <class name="tests.Android.Shopping"/>
+            <class name="tests.Android.My"/>
+            <class name="tests.Android.Search"/>
+            <class name="tests.Android.Product"/>
+            <class name="tests.Android.Detail"/>
+            <class name="tests.Android.Sample"/>
+        </classes>
+    </test>
+</suite>
